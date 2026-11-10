@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "changelog-lint"
+version = "0.1.0"
+description = "Lint CHANGELOG.md against the Keep a Changelog format: section names, version order, dates, Unreleased, and link references."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Tanmesh Kekane" }]
+keywords = ["changelog", "keep-a-changelog", "lint", "semver", "release", "pre-commit"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/kekanetanmesh-dev/changelog-lint"
+Issues = "https://github.com/kekanetanmesh-dev/changelog-lint/issues"
+
+[project.scripts]
+changelog-lint = "changelog_lint.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

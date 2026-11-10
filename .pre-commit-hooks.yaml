@@ -1,0 +1,7 @@
+- id: changelog-lint
+  name: changelog-lint
+  description: Lint CHANGELOG.md against the Keep a Changelog format.
+  entry: changelog-lint
+  language: python
+  files: (^|/)CHANGELOG\.md$
+  pass_filenames: true
