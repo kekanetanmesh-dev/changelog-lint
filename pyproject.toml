@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Lint CHANGELOG.md against the Keep a Changelog format: section names, version order, dates, Unreleased, and link references."
 readme = "README.md"
 license = { text = "MIT" }
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [{ name = "Tanmesh Kekane" }]
 keywords = ["changelog", "keep-a-changelog", "lint", "semver", "release", "pre-commit"]
 classifiers = [

@@ -11,7 +11,7 @@ CHANGELOG.md:22: error: date 2026-13-01 is not a real date [CL041]
 4 error(s), 0 warning(s)
 ```
 
-Zero dependencies, Python 3.9+, runs as a CLI, a pre-commit hook, or a GitHub Action.
+Zero dependencies, Python 3.10+, runs as a CLI, a pre-commit hook, or a GitHub Action.
 
 ## Install
 
